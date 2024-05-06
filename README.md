@@ -4,9 +4,7 @@
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
-
-``````cmd
-// A* Search Algorithm
+A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
@@ -48,14 +46,13 @@
     e) push q on the closed list
     end (while loop)
 
-``````
 
 ## PROGRAM:
 
-### Developed by:Logeshwari.P
-### Reg no:212221230055
+### Developed by: Nithishwar S
+### Reg no:212221230071
 
-```
+```py
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
