@@ -46,7 +46,7 @@
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
-     end (for loop)
+            end (for loop)
   
     e) push q on the closed list
     end (while loop)
