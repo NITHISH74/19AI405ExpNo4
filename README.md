@@ -6,6 +6,7 @@
 <H3>Algorithm:</H3>
 
 <body>
+    
 //A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -22,7 +23,9 @@
        parents to q
    
     d) for each successor
+    
         i) if successor is the goal, stop search
+
         
         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
@@ -48,7 +51,8 @@
     e) push q on the closed list
     end (while loop)
     </body>
-```
+
+
 
 ## PROGRAM:
 
